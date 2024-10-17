@@ -1,6 +1,7 @@
 const getCSS = (variavel) => {
-    return getComputedStyle(document.body).getPropertyValue(variavel)
-  };
+    return getComputedStyle(document.body)
+    getPropertyValue(variavel)
+  }
   
   const tickConfig = {
     color: getCSS('--primary-color'),
